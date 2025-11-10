@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="Mohammed Shakir" />
-  <title>Navigation and Links | Contact</title>
+  <meta name="author" content="Raiyaan Shakir" />
+  <title>Navigation and Links | About</title>
   <style>
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.55;margin:0;color:#111;background:#f6f7f9}
     header,footer{background:#fff}
@@ -15,7 +15,6 @@
     nav a{display:inline-block;padding:10px 16px;border-radius:6px;text-decoration:none;background:#173e63;color:#fff}
     nav a[aria-current="page"]{background:#0b2237}
     main{padding:28px 0}
-    .card{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:16px}
     footer{margin-top:40px;border-top:1px solid #e5e7eb}
     .footer-grid{display:grid;gap:8px;justify-items:center;padding:28px 0}
   </style>
@@ -23,36 +22,33 @@
 <body id="top">
   <header>
     <div class="wrap">
-      <h1>Navigation and Links</h1>
+      <h1>Navigation and Links | About</h1>
       <nav aria-label="Primary">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html" aria-current="page">Contact</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main class="wrap">
-    <h2>Contact Us</h2>
-    <p>Need to get in touch? Use the form below or reach out directly.</p>
+    <p>This is the about page.</p>
 
-    <section id="form" class="card">
-      <h3>Simple Contact (demo only)</h3>
-      <p><strong>Note:</strong> This is a static practice page—submitting won’t send anything.</p>
-      <p><a href="#" title="Dummy submit">Submit the form</a> <!-- Dummy 1 --></p>
-      <p>Prefer email? <a href="mailto:webmaster@example.com?subject=Contact%20from%20site">Send us an email</a>.</p>
-      <p>Call us instead: <a href="tel:+15555555555">(555) 555-5555</a></p>
-      <p>Back to the <a href="index.html#top">Home (top)</a>.</p>
-    </section>
+    <p>Quick links for practice:
+      <a href="index.html#top">Home (top)</a> •
+      <a href="contact.html#form">Contact form</a> •
+      <a href="#" title="Dummy example">dummy link</a>
+    </p>
+
+    <p>Reach us anytime at <a href="mailto:j.barnett@asu.edu">j.barnett@asu.edu</a> or by phone <a href="tel:+15555555555">(555) 555-5555</a>.</p>
   </main>
 
   <footer>
     <div class="wrap footer-grid">
-      <p><strong>Thanks for visiting!</strong></p>
-      <p><a href="tel:+15555555555">(555) 555-5555</a> • <a href="mailto:j.barnett@asu.edu">Email Jessica Barnett</a></p>
-      <p><a href="#top">Back to Top</a> • <a href="about.html#top">About (top)</a></p>
+      <p><a href="#top">Back to Top</a></p>
+      <p class="muted">© 2023 – GIT215 – Practice Site</p>
     </div>
   </footer>
 </body>
